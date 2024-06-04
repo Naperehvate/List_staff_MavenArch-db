@@ -112,8 +112,20 @@ public class Persons_collect
 
     }
 
-    public void FindBooksByAuthor(String author)
-    {
-
+    public void FindPersonsByName(String name) {
+        sql = "SELECT * FROM person WHERE name = ?";
+        try (Connection conn = DataBaseHelper.Connection();
+             PreparedStatement pstmt = conn.prepareStatement(sql);
+             ResultSet rs = pstmt.executeQuery();) {
+            pstmt.setString(1, name);
+            while (rs.next()) {
+                String id = rs.getString("id");
+                String age = rs.getString("age");
+                String idNumber = rs.getString("idNumber");
+                System.out.println(id + " " + name + " " + age + " " + idNumber);
+            }
+        } catch (SQLException e) {
+            System.out.println(e.getMessage());
+        }
     }
 }

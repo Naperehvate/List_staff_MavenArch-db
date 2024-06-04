@@ -7,6 +7,7 @@
     <list default="true" id="7b3485d5-75fa-483a-9dfc-fcc35231cec5" name="Changes" comment="rework class ander the DB">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Persons_collect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Persons_collect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Program.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,21 +24,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Naperehvate"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Naperehvate&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Naperehvate/List_staff_MavenArch-db.git",
-    "accountId": "e0a227d8-ad8c-41a7-a320-2ef80ea633be"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Naperehvate/List_staff_MavenArch-db.git&quot;,
+    &quot;accountId&quot;: &quot;e0a227d8-ad8c-41a7-a320-2ef80ea633be&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2hM9I1jlZN1cgGXXWNVtOlGDyqI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -46,7 +47,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Program.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.List_staff_MavenArch-db [clean].executor": "Run",
+    "Maven.List_staff_MavenArch-db [package].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
@@ -81,6 +85,7 @@
       <option name="presentableId" value="Default" />
       <updated>1717392996526</updated>
       <workItem from="1717392997675" duration="6983000" />
+      <workItem from="1717488793625" duration="1201000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <option name="closed" value="true" />
