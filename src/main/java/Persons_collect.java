@@ -21,6 +21,7 @@ public class Persons_collect
             pstmt.setInt(2, person.getAge());
             pstmt.setString(3, person.getIdNumber());
             pstmt.executeUpdate();
+            System.out.println("Person was added");
             return true;
         }
         catch (SQLException e)
@@ -29,14 +30,15 @@ public class Persons_collect
             return false;
         }
     }
-    public boolean removePerson(Persons person)
+    public boolean removePerson(String idNumber)
     {
         sql="delete from person where idNumber = ?";
         try(Connection conn = DataBaseHelper.Connection();
             PreparedStatement pstmt = conn.prepareStatement(sql);)
         {
-            pstmt.setString(1, person.getIdNumber());
+            pstmt.setString(1, idNumber);
             pstmt.executeUpdate();
+            System.out.println("Person removed");
             return true;
         }
         catch (SQLException e)
@@ -54,8 +56,9 @@ public class Persons_collect
         {
             pstmt.setString(1, person.getName());
             pstmt.setInt(2, person.getAge());
-            //возвращает количество затронутых строк
+            pstmt.setString(3, person.getIdNumber());
             pstmt.executeUpdate();
+            System.out.println("Person was updated");
             return true;
         }
         catch (SQLException e)
@@ -78,7 +81,7 @@ public class Persons_collect
                 String name = rs.getString("name");
                 int age = rs.getInt("age");
                 String idNumber = rs.getString("idNumber");
-                System.out.println(id + " " + name + " " + age + " " + idNumber);
+                System.out.println("Id = " + id + ", Name = " + name + ", Age = " + age + ", IdNumber = " + idNumber);
             }
         }
         catch (SQLException e)
@@ -92,15 +95,15 @@ public class Persons_collect
         sql = "SELECT * FROM person WHERE idNumber = ?";
         try(Connection conn = DataBaseHelper.Connection();
             PreparedStatement pstmt = conn.prepareStatement(sql);
-            ResultSet rs = pstmt.executeQuery(sql);)
+            ResultSet rs = pstmt.executeQuery();)
         {
             pstmt.setString(1, idNumber);
             if (rs.next())
             {
                 String name = rs.getString("name");
                 int age = rs.getInt("age");
-                String id = rs.getString("id");
-                return new Persons(Integer.parseInt(id), name, age, idNumber);
+                System.out.println(name + " " + age + " " + idNumber);
+                return new Persons(name, age, idNumber);
             }
             return null;
         }

@@ -7,9 +7,8 @@ public class Persons
     private int age;
     private String idNumber;
 
-    public Persons(int id,String name, int age, String idNumber)
+    public Persons(String name, int age, String idNumber)
     {
-        this.id = id;
         this.name = name;
         this.age = age;
         this.idNumber = idNumber;
@@ -46,8 +45,9 @@ public class Persons
     @Override
     public String toString()
     {
-        return "Persons" +
-                "name='" + name + '\'' +
+        return "Persons:" +
+                " id=" + id + '\'' +
+                " name='" + name + '\'' +
                 ", age=" + age +
                 ", idNumber='" + idNumber + '\'';
     }
