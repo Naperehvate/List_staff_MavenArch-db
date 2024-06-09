@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b3485d5-75fa-483a-9dfc-fcc35231cec5" name="Changes" comment="Modified add db">
+    <list default="true" id="7b3485d5-75fa-483a-9dfc-fcc35231cec5" name="Changes" comment="Modified classes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Persons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Persons.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Persons_collect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Persons_collect.java" afterDir="false" />
@@ -46,24 +46,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Program.executor&quot;: &quot;Run&quot;,
-    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.List_staff_MavenArch-db [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.List_staff_MavenArch-db [package].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Program.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.List_staff_MavenArch-db [clean].executor": "Run",
+    "Maven.List_staff_MavenArch-db [package].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\User\IdeaProjects\List_staff_MavenArch-db\src\main\java" />
@@ -87,7 +88,17 @@
       <updated>1717392996526</updated>
       <workItem from="1717392997675" duration="6983000" />
       <workItem from="1717488793625" duration="1988000" />
-      <workItem from="1717624185996" duration="3918000" />
+      <workItem from="1717624185996" duration="4595000" />
+      <workItem from="1717628796325" duration="68000" />
+      <workItem from="1717628871582" duration="19000" />
+      <workItem from="1717628898026" duration="535000" />
+      <workItem from="1717629441318" duration="414000" />
+      <workItem from="1717629863428" duration="134000" />
+      <workItem from="1717630004257" duration="115000" />
+      <workItem from="1717630138498" duration="26000" />
+      <workItem from="1717630170396" duration="38000" />
+      <workItem from="1717630218385" duration="17000" />
+      <workItem from="1717917825913" duration="3162000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <option name="closed" value="true" />
@@ -121,7 +132,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717490783719</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Modified classes">
+      <option name="closed" value="true" />
+      <created>1717628204101</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1717628204101</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,6 +161,7 @@
     <MESSAGE value="add" />
     <MESSAGE value="rework class ander the DB" />
     <MESSAGE value="Modified add db" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modified add db" />
+    <MESSAGE value="Modified classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modified classes" />
   </component>
 </project>
